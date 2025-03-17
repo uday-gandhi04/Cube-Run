@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2159223718517150685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8543089367416177454}
+  - component: {fileID: 1208227301270412138}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8543089367416177454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159223718517150685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 141.56888, y: 188.42072, z: -1.4127798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208227301270412138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159223718517150685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7947472ceb29e5e49ba7ec95e1deca79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: Crash
+    clip: {fileID: 8300000, guid: abbb40ac85e334843bdf030500b09275, type: 3}
+    volume: 1
+    volumeVariance: 0.503
+    pitch: 1.04
+    pitchVariance: 0.342
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: WhooshIntro
+    clip: {fileID: 8300000, guid: 599cc6e060cd94641b57f6708511c312, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 3
+    pitchVariance: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Whoosh
+    clip: {fileID: 8300000, guid: 2237711e77044a042a7682bd508e8645, type: 3}
+    volume: 0.822
+    volumeVariance: 0.442
+    pitch: 1.04
+    pitchVariance: 0.342
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: CrashIntro
+    clip: {fileID: 8300000, guid: fc20273c47735c24081cb51159ad9032, type: 3}
+    volume: 0.822
+    volumeVariance: 0.798
+    pitch: 2.62
+    pitchVariance: 0.806
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Background
+    clip: {fileID: 8300000, guid: aec8b4edf73242d46b4e38ae5215899f, type: 3}
+    volume: 0.209
+    volumeVariance: 0.395
+    pitch: 1.4
+    pitchVariance: 0.457
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Fall
+    clip: {fileID: 8300000, guid: d8e4d325eb230cc4ea14087d0042a6c3, type: 3}
+    volume: 1
+    volumeVariance: 0.473
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
